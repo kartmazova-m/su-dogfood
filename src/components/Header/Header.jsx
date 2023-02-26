@@ -1,9 +1,14 @@
+ import Logo from '../Logo/Logo';
+ import "./index.css";
+ import Search from '../Search/Search';
+ 
  const Header = () => {
     return (
-        <header>
+        <header className="header">
             <div className="container">
                 <div className="header__wrapper">
-                    Лого сюда
+                    <Logo /> 
+                    <Search /> 
                 </div>
             </div>
         </header>
