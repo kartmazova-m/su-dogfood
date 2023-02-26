@@ -99,6 +99,10 @@
     display: flex;
 }
 
+.card__favorite-active {
+    fill: #F44336;
+}
+
 .card__cart {
     margin-top: auto;
 }

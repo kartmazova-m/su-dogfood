@@ -1,14 +1,14 @@
  import Logo from '../Logo/Logo';
  import "./index.css";
  import Search from '../Search/Search';
+import { Children } from 'react';
  
- const Header = () => {
+ const Header = ({children}) => {
     return (
         <header className="header">
             <div className="container">
                 <div className="header__wrapper">
-                    <Logo /> 
-                    <Search /> 
+                    {children}
                 </div>
             </div>
         </header>
